@@ -1,0 +1,44 @@
+*********** MOVING IN THE 3D WORLD (v1.0)***********
+
+Instructions:
+
+- To play the game the run the executable `game2.2` (./game2.2 from the terminal)
+- To compile the game again (so as to randomise the obsticals and pits) run `make` in your computer's terminal.
+
+Libraries utilized :
+
+- cmath
+- glm
+- glfw
+
+Features : 
+
+- The player is a cube. 
+- Player can move on the obstacle course with the help of controls form the keyboard.
+- Obstacles are generated randomly, everytime you start the game. 
+- There are parts of the ground missing in the game course, thus enhancing the difficulty of the game.
+- The game provides with different camera views to the player.
+- obstricals are present. We die if we encounter them.
+- There are movable floor tiles.
+- The Player can access different camera views by using some keys on the keyboard.
+- Different camera views include :- 
+  a) Top View
+  b) Tower View
+  c) Follow View (default)
+  d) Adventure View
+  e) Helicopter View
+
+Controls:
+
+- Movement:-
+   UP arrow - move forward in the course.
+   DOWN arrow - move backward in the course.
+   RIGHT arrow - move rightward in the course.
+   LEFT arrow - move leftward in the course.
+
+- Camera Views:-
+   P - for enabling the top camera.
+   T - for enabling the tower camera.
+   F - for enabling the follow camera.
+   A - adventure cam
+********** END **********
